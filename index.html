@@ -23,7 +23,8 @@
   </head>
 
   <body>
-    <header class="header">
+    
+<header class="header">
   <div class="container header-container">
     <nav class="mobile-nav">
       <span class="mobile-logo">
@@ -40,28 +41,35 @@
           <a href="#reviews.html" class="button btn-header-tablet">Reviews</a>
         </li>
       </ul>
+
       <button id="mobileMenuBtn" class="mobile-btn-menu" type="button" aria-label="mobile btn menu">
         <svg class="mobile-menu-svg" width="28" height="28">
           <use href="/dev-legassy/assets/icons-b064ad14.svg#icon-menu"></use>
         </svg>
       </button>
       <ul class="header-social">
+
         <li class="header-social-item"><a href="https://www.instagram.com/goitclub/" target="_blank"
             class="header-social-link">
+
             <svg class="header-svg" width="24" height="24">
               <use href="/dev-legassy/assets/icons-b064ad14.svg#icon-instagram"></use>
             </svg>
           </a>
         </li>
+
         <li class="header-social-item"><a href="https://www.youtube.com/c/GoIT" target="_blank"
             class="header-social-link">
+
             <svg class="header-svg" width="24" height="24">
               <use href="/dev-legassy/assets/icons-b064ad14.svg#icon-you-tube"></use>
             </svg>
           </a>
         </li>
+
         <li class="header-social-item"><a href="https://www.facebook.com/goITclub/" target="_blank"
             class="header-social-link">
+
             <svg class="header-svg" width="24" height="24">
               <use href="/dev-legassy/assets/icons-b064ad14.svg#icon-facebook"></use>
             </svg>
@@ -84,6 +92,7 @@
         <div class="modale-block">
           <ul class="modale-list">
             <li class="modale-item">
+
               <a href="#about-us.html" class="button btn-modale-primary">About</a>
             </li>
             <li class="modale-item">
@@ -101,6 +110,7 @@
                 </svg>
               </a>
             </li>
+
             <li class="modale-social-item"><a href="https://www.youtube.com/c/GoIT" target="_blank"
                 class="modale-social-link">
                 <svg class="modale-svg" width="24" height="24">
@@ -108,8 +118,10 @@
                 </svg>
               </a>
             </li>
+
             <li class="modale-social-item"><a href="https://www.facebook.com/goITclub/" target="_blank"
                 class="modale-social-link">
+
                 <svg class="modale-svg" width="24" height="24">
                   <use href="/dev-legassy/assets/icons-b064ad14.svg#icon-facebook"></use>
                 </svg>
@@ -121,6 +133,8 @@
     </div>
   </div>
 </header>
+
+
 
     <main>
       <section class="section hero-section">
@@ -144,6 +158,71 @@
       <section></section>
 
       <section></section>
+<section class="rent-a-yacht">
+  <div class="container">
+    <h2>Rent a yacht now</h2>
+    <div class="rent-form-wrapper">
+        <form class="rent-form" name="rent-a-yacht">
+          <label class="" for="user-name">
+            <input
+              class="rent-form-input"
+              name="user-name"
+              id="user-name"
+              type="text"
+              placeholder="Full Name"
+              pattern="[a-zA-Zа-яА-ЯіїєґІЇЄҐ' -]{1,50}"
+              required
+            />
+          </label>
+         <label class="" for="user-email">
+        <input
+          class="rent-form-input"
+          name="user-email"
+          id="user-email"
+          type="email"
+          placeholder="Email"
+          pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+          required
+        />
+         </label>
+         <label class="" for="user-phone">
+            <input
+              class="rent-form-input"
+              name="user-phone"
+              id="user-phone"
+              type="tel"
+              placeholder="Phone Number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required
+            />
+         </label>
+        <textarea class="" placeholder="Comment"  cols="30" rows="10"></textarea>
+        <button class="form-btn" type="submit">Send</button>
+        </form>
+    </div>
+    <picture>
+        <source
+          srcset="/dev-legassy/assets/rent-a-yachtMob-edcc0d39.webp 1x, /dev-legassy/assets/rent-a-yachtMob@2x-84d9e708.webp 2x"
+          media="(max-width: 375px)"
+        />
+        <source
+          srcset="/dev-legassy/assets/rent-a-yachtTab-9c5346a7.webp 1x, /dev-legassy/assets/rent-a-yachtTab@2x-49a31480.webp 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/dev-legassy/assets/rent-a-yachtDesc-b3544380.webp 1x, /dev-legassy/assets/rent-a-yachtDesc@2x-26f90dd9.webp 2x"
+          media="(min-width: 1280px)"
+        />
+        <img
+          class="rent-img"
+          src="/dev-legassy/assets/rent-a-yachtMob-edcc0d39.webp"
+          width="335"
+          height="412"
+          alt="Banking App"
+        />
+      </picture>
+  </div>
+</section>
 
       <section>
     <h2>YachtJet take pride in providing the best possible service and experience to our customers</h2>
